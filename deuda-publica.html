@@ -277,10 +277,12 @@
 </div>
 <!-- =============Hero Area============= -->
 <!--  -->
+
 <!--=================Contenido================= -->
 <div class="container">
 
-<div class="row">
+<div class="row dadaDeudaPub">
+  <button onclick="v(); return false">Hola</button>
     <div class="col-lg-4 col-md-12">
      
         <aside class="sidebar">
@@ -295,31 +297,25 @@
                 </form>
             </div>
             <div class="widget widget-category">
-                <ul>
-                    <li><a class="active text-primary" href="javascript:void(0)">LOS VALORES DEL TESORO</a></li>
-                    <li><a href="javascript:void(0)">PROGRAMA DE BONOS VERDES</a></li>
-                    <li><a href="javascript:void(0)">LOS VALORES DEL TESORO</a></li>
-                    <li><a href="javascript:void(0)">SUBASTAS</a></li>
-                    <li><a href="javascript:void(0)">INFORMACIÓN PARA INVERSORES</a></li>
-                    <li><a href="javascript:void(0)">CALIFICACIÓN CREDITICIA</a></li>
-                    <li><a href="javascript:void(0)">CREADORES DE MERCADO</a></li>
-                    <li><a href="javascript:void(0)">ESTADÍSTICAS</a></li>
-                    <li><a href="javascript:void(0)">PRUDENCIA FINANCIERA</a></li>
-                    <li><a href="javascript:void(0)">GLOSARIO</a></li>
-                    <li><a href="javascript:void(0)">PREGUNTAS FRECUENTES</a></li>
-                </ul>
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  </div>
             </div>
            
            
           
         </aside>
     </div>
+
     <div class="col-lg-8 col-md-12">
         <h4 class="title text-uppercase mt-2">
             
             DEUDA PÚBLICA
             <hr>
         </h4>
+
         <div class="blog-single">
             <div class="row">
                 
@@ -327,123 +323,16 @@
                    
 
                     
-                    <tr>
-                      <th style="width: 60%;">Letras a 3 Meses</th>
-                      <td>2.638%</td>
-                    </tr>
-                    <tr>
-                      <th>Letras a 6 Meses</th>
-                      <td>3.114%</td>
-                     
-                    </tr>
-                    <tr>
-                      <th>Letras a 9 Meses</th>
-                      <td>3.021%</td>
-                      
-                    </tr>
-                    <tr>
-                      <th>Letras a 12 Meses</th>
-                      <td>3.295%</td>
-                     
-                    </tr>
-                    <tr>
-                        <th>Letras a 3 Meses</th>
-                        <td>2.638%</td>
-                      </tr>
-                      <tr>
-                        <th>Bonos a 3 Años</th>
-                        <td>3.433%</td>
-                       
-                      </tr>
-                      <tr>
-                        <th>Bonos a 5 Años</th>
-                        <td>2.667%</td>
-                        
-                      </tr>
-                      <tr>
-                        <th>Obligaciones a 10 Años</th>
-                        <td>3.361%</td>
-                       
-                      </tr>
-                      <tr>
-                        <th>Obligaciones a 7 Años</th>
-                        <td>3.520%</td>
-                       
-                      </tr>
-                      <tr>
-                        <th>Obligaciones a 30 Años</th>
-                        <td>3.810%</td>
-                       
-                      </tr>
-                      <tr>
-                        <th>Obligaciones Indexadas a 15 Años</th>
-                        <td>1.164%</td>
-                        
-                      </tr>
-                      <tr>
-                        <th>Obligaciones a 50 Años</th>
-                        <td>2.851%</td>
-                       
-                      </tr>
-                      <tr>
-                          <th>Obligaciones a 15 Años</th>
-                          <td>3.132%</td>
-                        </tr>
-                        <tr>
-                          <th>Obligaciones Indexadas a 10 Años</th>
-                          <td>-0.958%</td>
-                         
-                        </tr>
-                        <tr>
-                          <th>Obligaciones a 20 Años</th>
-                          <td>3.649%</td>
-                          
-                        </tr>
-                        <tr>
-                          <th>Obligaciones a Vr 17,6 Años</th>
-                          <td>3.203%</td>
-                         
-                        </tr>
-                        <tr>
-                          <th>Obligaciones a Vr 5,3 Años</th>
-                          <td>2.887%</td>
-                         
-                        </tr>
-                        <tr>
-                            <th>Obligaciones a Vr 4,10 Años</th>
-                            <td>2.983%</td>
-                           
-                          </tr>
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border" role="status">
+                          <span class="visually-hidden">Loading...</span>
+                        </div>
+                      </div>
                    
                    
                   </table>
                
-                  
-            <style>
-                table {
-                    border-collapse: collapse;
-                    width: 100%;
-                    padding: 10px;
-                }
-                
-               td {
-                    text-align: center;
-                    padding: 8px;
-                    border-bottom: 1px solid #ddd;
-                }
-                
-                th {
-                    background-color: #f2f2f2;
-                    border-bottom: 1px solid #ddd;
-                    text-align: justify;
-                    font-size: 15px;
-                    padding: 10px;
-                }
-                
-                tr:hover {
-                    background-color: #f5f5f5;
-                }
-            </style>
+           
                
             </div>
           
@@ -451,8 +340,12 @@
             
            
         </div>
+
     </div>
+
 </div>
+
+
 </div>
 <!--=================Contenido================= -->
 
@@ -651,7 +544,25 @@
 
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    //código a ejecutar cuando el DOM está listo para recibir acciones
+    const contData = $('dadaDeudaPub');
+    $.post('./data-deuda-publica.html')
+    .done(function(data) {
+       /*  alert( "Data Loaded: " + data ); */
+        $('.dadaDeudaPub').html(data);
+    });
+});
 
+function v(){
+    $.post('http://localhost/tesoro/deuda-publica.html')
+    .done(function(data) {
+        alert( "Data Loaded: " + data );
+    });
+}
+
+</script>
 
 
 
@@ -776,7 +687,7 @@
     <script src="./assets/js/nice-select.js"></script>
     <script src="./assets/js/main.js"></script>
 
-<!--  -->
+
 <script src="assets/js/wow.min.js"></script>
 <script src="./assets/js/actions.js"></script>
 <script src="./assets/js/function.js"></script>
