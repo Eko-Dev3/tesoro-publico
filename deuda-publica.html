@@ -548,7 +548,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     //código a ejecutar cuando el DOM está listo para recibir acciones
     const contData = $('dadaDeudaPub');
-    $.post('./data-deuda-publica.html')
+    $.post('https://github.com/Eko-Dev3/tesoro-publico/blob/main/data-deuda-publica.html')
     .done(function(data) {
        /*  alert( "Data Loaded: " + data ); */
         $('.dadaDeudaPub').html(data);
@@ -556,9 +556,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 function v(){
-    $.post('http://localhost/tesoro/deuda-publica.html')
+    $.post('https://github.com/Eko-Dev3/tesoro-publico/blob/main/data-deuda-publica.html')
     .done(function(data) {
-        alert( "Data Loaded: " + data );
+         $('.dadaDeudaPub').html(data);
     });
 }
 
